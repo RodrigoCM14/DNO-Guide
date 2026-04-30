@@ -228,6 +228,20 @@ def render_structured_block(section_id: str, text: str, class_name: str) -> str 
             rows.append([label.strip(), value.strip()])
         return render_table(["Data Type", "Farm Location"], rows)
 
+    if section_id == "claim-map-completion-rewards":
+        markers = [
+            "Wester Area Rewards",
+            "File Island Area Rewards",
+            "Glacier Area Rewards",
+            "Server Continent Area Rewards",
+        ]
+        if any(marker in text for marker in markers):
+            rows = []
+            for item in split_known_sequence(text, markers):
+                label, _, rewards = item.partition("-")
+                rows.append([label.strip(), rewards.strip()])
+            return render_table(["Area", "Completion Rewards"], rows)
+
     if "Ensure auto pickup is enabled for the following items:" in text:
         before, _, after = text.partition("Ensure auto pickup is enabled for the following items:")
         quoted = re.findall(r'"([^"]+)"', after)
