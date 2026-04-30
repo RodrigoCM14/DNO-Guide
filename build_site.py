@@ -101,6 +101,91 @@ def render_table(headers: list[str], rows: list[list[str]], class_name: str = "d
     return f'<table class="{class_name}"><thead><tr>{head}</tr></thead><tbody>{body}</tbody></table>'
 
 
+def render_static_table(headers: list[str], rows: list[list[str]], class_name: str = "overview-table") -> str:
+    return render_table(headers, rows, class_name)
+
+
+def render_overview() -> str:
+    map_unlocks = render_static_table(
+        ["Map / Area", "Access", "Requirement"],
+        [
+            ["Oil Refinery 1, 2, 3", "Portal Guide Oil Refinery Employee in Yokohama Village: East", "Level 12 Tamer"],
+            ["D-Terminal B1/B2", "Kevin Krier in Dats Center", "Complete Richard Sampson sub quest"],
+            ["Snowstorm Village", "Miki in D-Terminal", "Level 20 Tamer and 20M"],
+            ["Village of the Beginning", "Elecmon in D-Terminal", "20M teleport cost"],
+            ["Western Village: West", "Cerberusmon in Western Village", "Level 55 Tamer"],
+            ["Digimon Maze Entrance", "Starmon in Dark Tower Wasteland", "Urgent Request sub quest at level 55 Tamer"],
+            ["Infinite Mountain Dungeon", "Elecmon in Infinite Mountain", "Complete Lost Historic Site and File Island Waterfront main quests"],
+            ["Server Continent Desert", "Raft near Gennai in File Island Waterfront", "Main quests unlocked after Infinite Mountain Dungeon access"],
+            ["Campsite / Tokyo-Odaiba", "Odaiba, White-Beared Guru in D-Terminal", "1 Tera"],
+            ["Shinjuku Western: Day", "DAT Member PawnChessmon W in D-Terminal", "10 Tera"],
+            ["Verdandi Terminal", "Verdandi T. / Digimon Lv 99+ Mary in D-Terminal", "First-slot Digimon level 99"],
+        ],
+    )
+    farming_routes = render_static_table(
+        ["Route", "Primary Goal", "Key Drops / Rewards", "Notes"],
+        [
+            ["Lost Historic Site cards", "Fast Tera and early materials", "SS5/SS6, accelerators, BM boxes, villain boxes", "Use AoE farmer plus Lillymon AA attacker"],
+            ["Server Continent cards", "Tera, fruit, mid data", "SS9/SS10, Fruit of Yggdrasil, Mid Data Boxes", "Good repeatable farm after Server Continent access"],
+            ["Villain Box loop", "True Bulk Fruit and upgrade materials", "Bulk Fruit, OCS, NCS, seal openers, clone boxes", "Best once Super Villain cards are manageable"],
+            ["Adventure Beach crests", "Omegamon Merciful Mode route", "Daily crest types by weekday", "AFK-friendly route; target 6,000 of each crest"],
+        ],
+    )
+    milestones = render_static_table(
+        ["Milestone", "Target", "Primary Source", "Estimated Time / Gate"],
+        [
+            ["Archive setup", "70 Digimon in Archive", "Hatching and unlocking lines", "Unlocks stronger archive scaling and route choices"],
+            ["Alphamon Ouryuken Extreme", "T10 and 75/75 clones", "Royal Base Easy and Nexus Coins", "About 9h 45m at 1 min per boss"],
+            ["Omegamon X", "T10 and 75/75 clones", "Finest Mysterious X-Antibody Factor Omegamon X", "RNG from Royal Base Easy boxes"],
+            ["Max Fanglongmon Ancient Accessories", "Necklace, ring, earring", "Normal Points through Fanglongmon Normal", "About 11h 40m at 4 min FDGN runs"],
+            ["Omegamon X Awaken (Black)", "640 containers", "Yggdrasil's Room", "About 42h 40m at 4 min runs"],
+            ["Fanglongmon Ruin Mode", "4 Black Hearts", "Fanglongmon Hard / Yin and Yang boxes", "About 13h 54m at 1 min runs"],
+            ["VIP 5", "50,000 VIP Points", "Fanglongmon Hard", "About 30h 24m total from VIP 0"],
+            ["P.W. Armagedomon", "2,500 Lost Historic Site boxes", "P.W. Lost Historic Site / Invade", "Final late-game milestone"],
+        ],
+    )
+    dungeon_routes = render_static_table(
+        ["Dungeon / Route", "Purpose", "Recommended Focus", "Important Note"],
+        [
+            ["Royal Base Easy", "Easy Points, Nexus Coins, Alphamon route", "Clear six bosses through NPC rooms", "Each boss gives VIP points"],
+            ["Fanglongmon Normal", "Normal Points and Fanglongmon Shin boxes", "Farm 2,100 Normal Points", "Best early accessory progression"],
+            ["Yggdrasil's Room", "Omegamon X Awaken (Black)", "Save 640 containers for pity", "Do not open containers early"],
+            ["Fanglongmon Hard", "VIP grind and Fanglongmon Ruin Mode", "Farm Hard Points and Yin/Yang boxes", "VIP increases point gain and field drops"],
+            ["P.W. Lost Historic Site", "P.W. Armagedomon and endgame boxes", "Choose route by party attribute", "Party strongly recommended"],
+        ],
+    )
+    return f"""
+        <section class="overview" id="guide-overview">
+          <div class="overview-head">
+            <p class="eyebrow">Clean Player View</p>
+            <h2>Guide Overview</h2>
+            <p>Use these tables for quick decisions, then jump into the detailed guide below for the full route instructions.</p>
+          </div>
+          <div class="callout-grid">
+            <div class="callout important-callout"><strong>Important:</strong> Server Continent completion rewards are especially valuable because they include the Palmon [Origin] egg route.</div>
+            <div class="callout warning-callout"><strong>Warning:</strong> Save pity-based dungeon boxes when the guide says not to open them early.</div>
+            <div class="callout time-callout"><strong>Time plan:</strong> The original guide estimates 136 hours and 9 minutes from start to completion.</div>
+          </div>
+          <section class="overview-block" id="map-unlocks-table">
+            <h3>Map Unlocks</h3>
+            {map_unlocks}
+          </section>
+          <section class="overview-block" id="farming-routes-table">
+            <h3>Farming Routes</h3>
+            {farming_routes}
+          </section>
+          <section class="overview-block" id="progression-milestones-table">
+            <h3>Progression Milestones</h3>
+            {milestones}
+          </section>
+          <section class="overview-block" id="dungeon-routes-table">
+            <h3>Dungeon Routes</h3>
+            {dungeon_routes}
+          </section>
+        </section>
+    """
+
+
 def split_known_sequence(text: str, starters: list[str]) -> list[str]:
     positions = []
     for starter in starters:
@@ -118,7 +203,7 @@ def split_known_sequence(text: str, starters: list[str]) -> list[str]:
 
 
 def render_structured_block(section_id: str, text: str, class_name: str) -> str | None:
-    if class_name not in {"guide-line", "note", "important"}:
+    if class_name not in {"guide-line", "note", "important", "time-estimate"}:
         return None
 
     if text == "Digimon Enhancement Buff Package -":
@@ -564,15 +649,18 @@ def render_markdown(markdown: str) -> tuple[str, list[dict[str, str]], list[dict
             current_text = []
 
     def line_class(stripped: str) -> str:
+        lower = stripped.lower()
+        if lower.startswith("[total time") or lower.startswith("total expected time"):
+            return "time-estimate"
         if stripped.startswith("[") and stripped.endswith("]"):
-            if stripped.lower().startswith("[important"):
+            if lower.startswith("[important"):
                 return "important"
             return "note"
-        if stripped.lower().startswith(("requirements", "requirement")):
+        if lower.startswith(("requirements", "requirement")):
             return "requirement"
-        if stripped.lower().startswith(("main goal", "side goal")):
+        if lower.startswith(("main goal", "side goal")):
             return "goal"
-        if stripped.lower().startswith(("important", "[important")):
+        if lower.startswith(("important", "[important")) or "do not open" in lower:
             return "important"
         return "guide-line"
 
@@ -694,6 +782,7 @@ def write_site() -> None:
     content, nav, sections = render_markdown(markdown)
     data = json.dumps(sections, ensure_ascii=False)
     nav_html = render_nav(nav)
+    overview_html = render_overview()
 
     (PUBLIC / "index.html").write_text(
         f"""<!doctype html>
@@ -739,6 +828,7 @@ def write_site() -> None:
             <span><strong>136h 9m</strong> source estimate</span>
           </div>
         </header>
+        {overview_html}
         <article id="guideContent" class="guide-content">
           {content}
         </article>
@@ -1030,6 +1120,60 @@ button:hover {
   max-width: 72rem;
 }
 
+.overview {
+  max-width: 72rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 1.5rem;
+}
+
+.overview-head {
+  margin: 0 0 1rem;
+}
+
+.overview-head h2 {
+  margin: 0;
+  color: var(--green);
+  font-family: "DNO Mono", Consolas, monospace;
+  font-size: clamp(1.5rem, 3vw, 2.4rem);
+}
+
+.overview-head p:not(.eyebrow) {
+  color: var(--muted);
+  max-width: 56rem;
+}
+
+.callout-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0 1.4rem;
+}
+
+.callout {
+  border-left: 3px solid var(--green);
+  border-radius: 0 6px 6px 0;
+  background: rgba(50, 242, 135, 0.07);
+  padding: 0.8rem 0.9rem;
+  color: #d8f7e5;
+}
+
+.warning-callout,
+.time-callout {
+  border-left-color: var(--warn);
+}
+
+.overview-block {
+  margin-top: 1.35rem;
+}
+
+.overview-block h3 {
+  margin: 0 0 0.7rem;
+  color: var(--cyan);
+  font-family: "DNO Mono", Consolas, monospace;
+  font-size: 1.05rem;
+}
+
 .guide-section {
   scroll-margin-top: 1rem;
   border-bottom: 1px solid var(--line);
@@ -1093,7 +1237,8 @@ ol {
 .requirement,
 .goal,
 .important,
-.note {
+.note,
+.time-estimate {
   border-left: 3px solid var(--green);
   background: rgba(50, 242, 135, 0.07);
   padding: 0.7rem 0.9rem;
@@ -1107,6 +1252,12 @@ ol {
 .important,
 .note {
   border-left-color: var(--warn);
+}
+
+.time-estimate {
+  border-left-color: var(--cyan);
+  background: rgba(100, 255, 224, 0.075);
+  font-family: "DNO Mono", Consolas, monospace;
 }
 
 .note {
@@ -1167,7 +1318,8 @@ ol {
   padding-left: 0;
 }
 
-.data-table {
+.data-table,
+.overview-table {
   width: 100%;
   border-collapse: collapse;
   margin: 0.9rem 0 1rem;
@@ -1177,20 +1329,24 @@ ol {
 }
 
 .data-table th,
-.data-table td {
+.data-table td,
+.overview-table th,
+.overview-table td {
   border-bottom: 1px solid rgba(50, 242, 135, 0.14);
   padding: 0.65rem 0.75rem;
   text-align: left;
   vertical-align: top;
 }
 
-.data-table th {
+.data-table th,
+.overview-table th {
   color: var(--green);
   background: rgba(50, 242, 135, 0.08);
   font-family: "DNO Mono", Consolas, monospace;
 }
 
-.data-table tr:last-child td {
+.data-table tr:last-child td,
+.overview-table tr:last-child td {
   border-bottom: 0;
 }
 

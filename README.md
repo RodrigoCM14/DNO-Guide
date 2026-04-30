@@ -19,11 +19,13 @@ Original PDF:
 
 `C:\Users\rcarr\Downloads\Newbie Guide [Extensive].pdf`
 
-## Next Editing Pass
+## Current Direction
 
-Recommended next pass:
+The final format is a small searchable guide site in `site/`. It keeps the long converted draft as the detailed reference, then adds player-facing overview tables for:
 
-1. Turn map unlocks, farming routes, dungeon routes, and progression milestones into tables.
-2. Add callouts for important warnings, prerequisites, and time estimates.
-3. Split the long converted draft into player-facing sections.
-4. Decide whether the final guide should become Markdown, a DOCX/PDF, or a small searchable guide site.
+1. Map unlocks.
+2. Farming routes.
+3. Progression milestones.
+4. Dungeon routes.
+
+The site also includes callouts for important warnings, requirements, notes, and time estimates.
