@@ -184,6 +184,8 @@ Note 2 - Ensure auto pickup is enabled for the following items:
 - "Mid Data Boxes"
 - "Villain Boxes"
 
+Step-by-step farming route:
+
 1. Convert SS5 to "Hero Card level 5s" specifically. SS6 card conversion does not matter unless indicated, because rewards from either card type will be the same.
 2. Kill "Hero Card level 5s". Once your inventory fills, sell all Accelerators at any NPC vendor, such as the "Vending Machine" NPC in Yokohama East Village. Each 999 stack gives 499M 500B.
 3. After selling the Accelerators, open the "BM Boxes" to receive Burst Mode items.
@@ -196,8 +198,8 @@ Note 2 - Ensure auto pickup is enabled for the following items:
 10. Continue trading up excess Summoning Stones. SS9 cards do not have anything special, but use SS10s to get "Villain Card level 10s" because they drop Mid Data Boxes that can be sold.
 11. Trade any SS11 from Villain Card level 10s for Super Villain 1s to get additional Villain Boxes and SS15s, then sell them for more Tera.
 
-Lost Historic Site Best Farming Digimon - Any AoE Digimon + Lillymon as your AA attacker [First Slot].
-Takes 3 hours to fill your inventory with stones at no VIP, which gives 80-100T once you kill all the cards.
+[Recommended setup - Lost Historic Site Best Farming Digimon: Any AoE Digimon + Lillymon as your AA attacker in the first slot.]
+[Time estimate - It takes about 3 hours to fill your inventory with stones at no VIP, which gives 80-100T once you kill all the cards.]
 
 
 <!-- PAGE 5 -->
@@ -216,6 +218,8 @@ Note 2 - Ensure auto pickup is enabled for the following items:
 - "Fruit of Yggdrasil"
 - "Mid Data Boxes"
 - "Villain Boxes"
+
+Step-by-step farming route:
 
 1. Trade Summoning Stones lv9 for any level 9 Monster Card, and trade Summoning Stone lv10s for "Villain Card level 10s".
 2. Defeat Monster Card level 9s to obtain Fruit of Yggdrasil. Sell excess Fruit at any NPC vendor. Each 999 stack gives 99M 900B.
