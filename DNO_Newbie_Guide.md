@@ -169,67 +169,59 @@ Tera (In-game Money/Currency), There are 2 Main Strategies to Make Tera Relative
 
 ### Lost Historic Site Method
 
-Farming Summoning Stone 5's (SS5) and Summoning Stone 6's (SS6) at Lost Historic Site
-Note 1 - Card Conversion Can be done at the "Barbamon" NPC in Dats Center
-Note 2 - Ensure auto pickup is enabled for the following items :
-"Summoning Stone lv6"
-"Summoning Stone lv7"
-"Summoning Stone lv8"
-"Summoning Stone lv9"
-"Summoning Stone lv10"
-"BM Boxes"
-"Accelerators"
-"Mid Data Boxes"
-"Villain Boxes"
-1. Convert SS5 to "Hero Card level 5s" specifically. SS6s card conversion doesn't really matter. [Certain
-Card Conversion don't matter, Unless Indicated Rewards from either type of Card will be the same]
-2. When Killing "Hero Card level 5s", Once your inventory fills, Sell all Accelerators at any NPC vendor
-[E.g. "Vending Machine" NPC in Yokohama East Village. Each 999 Stack Gives 499M 500B Each.
-3. After you have sold all Accelerators, Open the "BM Boxes" to receive Burst Mode Items.
-4. Use any Burst Mode items on missing evolutions you have first and then sell the excess BM Items at
-any NPC Vendor, Each 999 stacks of BM Items Gives 99M 900B Each
-5. BM Boxes also Gives "Summoning Stone lv13". Either Sell SS13s to players for Additional Money or
-Trade in SS13s for Super villain 3 (SV3) cards. Killing SV3 cards Gives a 1:3 Card to Villain Box Ratio
-6. [Extra] Open the Villain Boxes to Obtain Summoning Stone 15s to sell to endgame players for a lot of
-money [Use this step only if you can defeat SV3 Cards]
-7. Repeat Until all Hero Card level 5s, Monster Card 6s and Monster Card 7s has been used, trading up
-Additional Summoning Stones obtained from defeating the cards [Make sure to Add the next level
-Summoning Stone to the Auto Pickup setting]
-8. From the obtained Summoning Stone 8's you get from defeating Monster Card 7s, trade them in for
-Villain Card level 8 specifically.
-9. Villain Card level 8 drop "Mid data boxes". You can scan and sell excess data received at NPC
-vendors. Each 999 Stack of data Gives 99M 900B
-10. Continue to trade up excess Summoning Stones, SS9 cards don't have anything special but make
-sure to use any SS10s to get "Villain Card level 10s" as they drop Mid data boxes that you can sell.
-11. You can then trade in any SS11 from Villain Card level 10s for Super Villain 1s to get additional Villain
-boxes, SS15s and sell them from more tera.
-Lost Historic Site Best Farming Digimon - Any AoE Digimon + Lillymon as your AA attacker [First Slot]
-Takes 3 hours to fill your inventory with stones at no VIP which gives 80-100T you do so and kill all the cards
+Farming Summoning Stone 5's (SS5) and Summoning Stone 6's (SS6) at Lost Historic Site.
+
+Note 1 - Card Conversion can be done at the "Barbamon" NPC in Dats Center.
+Note 2 - Ensure auto pickup is enabled for the following items:
+
+- "Summoning Stone lv6"
+- "Summoning Stone lv7"
+- "Summoning Stone lv8"
+- "Summoning Stone lv9"
+- "Summoning Stone lv10"
+- "BM Boxes"
+- "Accelerators"
+- "Mid Data Boxes"
+- "Villain Boxes"
+
+1. Convert SS5 to "Hero Card level 5s" specifically. SS6 card conversion does not matter unless indicated, because rewards from either card type will be the same.
+2. Kill "Hero Card level 5s". Once your inventory fills, sell all Accelerators at any NPC vendor, such as the "Vending Machine" NPC in Yokohama East Village. Each 999 stack gives 499M 500B.
+3. After selling the Accelerators, open the "BM Boxes" to receive Burst Mode items.
+4. Use any Burst Mode items on missing evolutions first, then sell excess BM items at any NPC vendor. Each 999 stack gives 99M 900B.
+5. BM Boxes can also give "Summoning Stone lv13". Either sell SS13s to players for additional money, or trade SS13s for Super Villain 3 (SV3) cards. Killing SV3 cards gives a 1:3 card-to-Villain-Box ratio.
+6. [Extra] Open Villain Boxes to obtain Summoning Stone 15s, then sell them to endgame players. Use this step only if you can defeat SV3 cards.
+7. Repeat until all Hero Card level 5s, Monster Card 6s, and Monster Card 7s have been used. Trade up the additional Summoning Stones obtained from the cards, and add the next Summoning Stone level to auto pickup.
+8. From the Summoning Stone 8s obtained from Monster Card 7s, trade them for Villain Card level 8 specifically.
+9. Villain Card level 8 drops "Mid Data Boxes". Scan them and sell excess data to NPC vendors. Each 999 stack of data gives 99M 900B.
+10. Continue trading up excess Summoning Stones. SS9 cards do not have anything special, but use SS10s to get "Villain Card level 10s" because they drop Mid Data Boxes that can be sold.
+11. Trade any SS11 from Villain Card level 10s for Super Villain 1s to get additional Villain Boxes and SS15s, then sell them for more Tera.
+
+Lost Historic Site Best Farming Digimon - Any AoE Digimon + Lillymon as your AA attacker [First Slot].
+Takes 3 hours to fill your inventory with stones at no VIP, which gives 80-100T once you kill all the cards.
 
 
 <!-- PAGE 5 -->
 
 ### Server Continent Method
 
-Farming Summoning Stone 9's (SS9) and Summoning Stone 10's (SS10) at Server Continent Desert
-Note 1 - Card Conversion Can be done at the "Barbamon" NPC in Dats Center
-Note 2 - Ensure auto pickup is enabled for the following items :
-Respective Farming Mob 125B Digiegg
-450B DigiEgg (For Return)
-"Summoning Stone lv9"
-"Summoning Stone lv10"
-"Fruit of Yggdrasil"
-"Mid Data Boxes"
-"Villain Boxes"
-1. Trade in Summoning Stones lv9 for any level 9 Monster Card and Trade in any Summoning Stone
-lv10s to get "Villain Card level 10s".
-2. Defeat Monster Card level 9s to obtain Fruit of Yggdrasil, Excess Fruit can be sold at any NPC
-Vendors. Each 999 stack will give 99M 900B
-3. Trade up any Summoning Stone obtained from Level 9 Cards to "Villain Card level 10s Specifically"
-4. Villain Card level 10 drop "Mid data boxes". You can scan and sell excess data received at NPC
-vendors. Each 999 stack of data gives 99M 900B
-5. You can then trade in any Summoning Stone level 11 from Villain Card level 10s for Super Villain 1s to
-get additional Villain boxes, SS15s and sell them from more tera.
+Farming Summoning Stone 9's (SS9) and Summoning Stone 10's (SS10) at Server Continent Desert.
+
+Note 1 - Card Conversion can be done at the "Barbamon" NPC in Dats Center.
+Note 2 - Ensure auto pickup is enabled for the following items:
+
+- Respective Farming Mob 125B DigiEgg
+- 450B DigiEgg (For Return)
+- "Summoning Stone lv9"
+- "Summoning Stone lv10"
+- "Fruit of Yggdrasil"
+- "Mid Data Boxes"
+- "Villain Boxes"
+
+1. Trade Summoning Stones lv9 for any level 9 Monster Card, and trade Summoning Stone lv10s for "Villain Card level 10s".
+2. Defeat Monster Card level 9s to obtain Fruit of Yggdrasil. Sell excess Fruit at any NPC vendor. Each 999 stack gives 99M 900B.
+3. Trade any Summoning Stones obtained from level 9 cards into "Villain Card level 10s" specifically.
+4. Villain Card level 10 drops "Mid Data Boxes". Scan them and sell excess data at NPC vendors. Each 999 stack of data gives 99M 900B.
+5. Trade any Summoning Stone level 11 from Villain Card level 10s for Super Villain 1s to get additional Villain Boxes and SS15s, then sell them for more Tera.
 Data Collection
 Digieggs has a 100% hatch rate.
 Therefore you can use Mercenary Digieggs to get 5/5 with a 100% success rate
@@ -315,9 +307,7 @@ Average Number of Villain Boxes Required to get 470 True Bulk Fruit = 15,000 Vil
 Average Number of Villain Boxes Required to get 470 True Bulk Fruit (No Recycling) = 38,800 Villain Boxes
 [Total Villain Boxes Sample Size : 535,276]
 
-[Important - Being able to defeat Super Villain level 5 Cards is important due to this Conversion Rate, Once
-you get your first U+ Rank (Omegamon Merciful Mode from "Progression Route 2 (AFK)" step or (Omegamon
-X Awaken (Black) from "Initiate Yggdrasil Dungeon Farming") and T10 then, you will be able to defeat them]
+[Important - Being able to defeat Super Villain level 5 Cards is important due to this conversion rate. Once you get your first U+ Rank (Omegamon Merciful Mode from "Progression Route 2 (AFK)" or Omegamon X Awaken (Black) from "Initiate Yggdrasil Dungeon Farming") and T10 it, you will be able to defeat them.]
 
 <!-- PAGE 7 -->
 Digimon Enhancement Buff Package -

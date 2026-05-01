@@ -251,9 +251,12 @@ def render_structured_block(section_id: str, text: str, class_name: str) -> str 
             for item in re.split(r"(?=Respective Farming Mob|450B DigiEgg)", remaining)
             if item.strip()
         ]
+        items = loose + quoted
+        if not items:
+            return f'<p class="{class_name}">{inline_markup(before + "Ensure auto pickup is enabled for the following items:")}</p>'
         return (
             f'<p class="{class_name}">{inline_markup(before + "Ensure auto pickup is enabled for the following items:")}</p>'
-            + render_ul(loose + quoted)
+            + render_ul(items)
         )
 
     if section_id == "choose-the-right-card-trades":
