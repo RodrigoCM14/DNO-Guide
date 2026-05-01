@@ -3,12 +3,14 @@ from __future__ import annotations
 import html
 import json
 import re
+import shutil
 from pathlib import Path
 
 
 ROOT = Path(__file__).parent
 SOURCE = ROOT / "DNO_Newbie_Guide.md"
 PUBLIC = ROOT / "site"
+PAGES = ROOT / "docs"
 
 
 def slugify(value: str, used: set[str]) -> str:
@@ -1582,7 +1584,12 @@ backToTop.addEventListener("click", () => {
         encoding="utf-8",
     )
 
+    PAGES.mkdir(exist_ok=True)
+    for filename in ("index.html", "styles.css", "app.js"):
+        shutil.copy2(PUBLIC / filename, PAGES / filename)
+
     print(f"Wrote {PUBLIC / 'index.html'}")
+    print(f"Wrote {PAGES / 'index.html'}")
 
 
 if __name__ == "__main__":
