@@ -388,6 +388,43 @@ ol {
   padding-left: 1.35rem;
 }
 
+.guide-content ol {
+  counter-reset: route-step;
+  display: grid;
+  gap: 0.75rem;
+  list-style: none;
+  margin: 1rem 0 1.35rem;
+  padding-left: 0;
+}
+
+.guide-content ol li {
+  counter-increment: route-step;
+  position: relative;
+  border: 1px solid rgba(50, 242, 135, 0.18);
+  border-left: 3px solid rgba(50, 242, 135, 0.72);
+  border-radius: 0 8px 8px 0;
+  background: rgba(50, 242, 135, 0.045);
+  padding: 0.65rem 0.8rem 0.7rem 3.25rem;
+}
+
+.guide-content ol li::before {
+  content: counter(route-step);
+  position: absolute;
+  left: 0.75rem;
+  top: 0.72rem;
+  display: grid;
+  place-items: center;
+  width: 1.65rem;
+  height: 1.65rem;
+  border-radius: 50%;
+  border: 1px solid rgba(139, 255, 206, 0.5);
+  background: rgba(11, 75, 50, 0.85);
+  color: var(--green-soft);
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+
 .requirement,
 .goal,
 .important,
