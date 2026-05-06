@@ -837,8 +837,10 @@ def render_markdown(markdown: str) -> tuple[str, list[dict[str, str]], list[dict
                 list_state = tag
             checklist = re.match(r"^\[\s*\]\s+(.+)$", content)
             if checklist:
+                label = checklist.group(1)
+                check_id = slugify(f"check-{label}", used)
                 out.append(
-                    f'<li class="check-item"><span class="fake-check" aria-hidden="true"></span>{inline_markup(checklist.group(1))}</li>'
+                    f'<li class="check-item"><label><input type="checkbox" data-check-id="{html.escape(check_id)}"><span>{inline_markup(label)}</span></label></li>'
                 )
             else:
                 out.append(f"<li>{inline_markup(content)}</li>")
@@ -1352,17 +1354,25 @@ ol {
 }
 
 .guide-content ul li.check-item {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
   border: 1px solid rgba(100, 255, 224, 0.18);
   border-left: 3px solid var(--cyan);
   border-radius: 0 8px 8px 0;
   background: rgba(100, 255, 224, 0.045);
-  padding: 0.65rem 0.8rem;
+  padding: 0;
 }
 
-.fake-check {
+.check-item label {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+  min-height: 3rem;
+  padding: 0.65rem 0.8rem;
+  cursor: pointer;
+}
+
+.check-item input {
+  appearance: none;
   width: 1.2rem;
   height: 1.2rem;
   flex: 0 0 1.2rem;
@@ -1370,6 +1380,21 @@ ol {
   border: 1px solid rgba(139, 255, 206, 0.7);
   background: rgba(11, 75, 50, 0.55);
   box-shadow: inset 0 0 0 2px rgba(1, 18, 12, 0.9);
+}
+
+.check-item input:checked {
+  background: var(--green);
+  box-shadow: inset 0 0 0 3px rgba(1, 18, 12, 0.95), var(--glow);
+}
+
+.check-item input:checked + span {
+  color: rgba(224, 255, 240, 0.62);
+  text-decoration: line-through;
+}
+
+.check-item input:focus-visible {
+  outline: 2px solid var(--cyan);
+  outline-offset: 3px;
 }
 
 .requirement,
@@ -1629,6 +1654,23 @@ clearSearch.addEventListener("click", () => {
   input.value = "";
   applySearch();
   input.focus();
+});
+
+const checklistKey = "dno-guide-checklist";
+let checklistState = {};
+try {
+  checklistState = JSON.parse(localStorage.getItem(checklistKey) || "{}");
+} catch {
+  checklistState = {};
+}
+
+document.querySelectorAll(".check-item input[type='checkbox']").forEach((checkbox) => {
+  const id = checkbox.dataset.checkId;
+  checkbox.checked = Boolean(checklistState[id]);
+  checkbox.addEventListener("change", () => {
+    checklistState[id] = checkbox.checked;
+    localStorage.setItem(checklistKey, JSON.stringify(checklistState));
+  });
 });
 
 document.querySelectorAll(".anchor-link").forEach((link) => {
