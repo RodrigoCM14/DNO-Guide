@@ -11,6 +11,7 @@ ROOT = Path(__file__).parent
 SOURCE = ROOT / "DNO_Newbie_Guide.md"
 PUBLIC = ROOT / "site"
 PAGES = ROOT / "docs"
+ASSETS = ROOT / "assets"
 
 
 def slugify(value: str, used: set[str]) -> str:
@@ -820,17 +821,16 @@ def write_site() -> None:
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Digital Nexus Online Guide</title>
+    <link rel="icon" href="./assets/favicon.ico" sizes="any">
+    <link rel="icon" href="./assets/site-logo.webp" type="image/webp">
+    <link rel="apple-touch-icon" href="./assets/site-logo.webp">
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
     <div class="app-shell">
       <aside class="sidebar">
         <a class="brand" href="#top" aria-label="Digital Nexus Online guide home">
-          <span class="brand-mark">DNO</span>
-          <span>
-            <strong>Digital Nexus</strong>
-            <small>Online Guide</small>
-          </span>
+          <img class="brand-logo" src="./assets/site-logo.webp" alt="Digital Nexus Online">
         </a>
         <label class="search-box">
           <span>Search guide</span>
@@ -938,38 +938,27 @@ a {
 .brand {
   display: flex;
   align-items: center;
-  gap: 0.8rem;
+  justify-content: center;
   text-decoration: none;
-  padding-bottom: 1.1rem;
+  padding-bottom: 1.25rem;
   border-bottom: 1px solid var(--line);
 }
 
-.brand-mark {
-  display: grid;
-  place-items: center;
-  width: 3.2rem;
-  aspect-ratio: 1;
-  border: 1px solid rgba(50, 242, 135, 0.55);
-  background: linear-gradient(145deg, rgba(50, 242, 135, 0.16), rgba(100, 255, 224, 0.08));
-  color: var(--green);
-  font-family: "DNO Mono", Consolas, monospace;
-  font-weight: 800;
-  letter-spacing: 0;
-  text-shadow: 0 0 14px rgba(50, 242, 135, 0.8);
+.brand-logo {
+  display: block;
+  width: min(12rem, 82%);
+  height: auto;
+  border: 1px solid rgba(50, 242, 135, 0.25);
+  border-radius: 8px;
+  box-shadow: var(--glow);
 }
 
-.brand strong,
 .hero h1,
 .section-head h1,
 .section-head h2,
 .section-head h3 {
   font-family: "DNO Mono", "Segoe UI", sans-serif;
   letter-spacing: 0;
-}
-
-.brand small {
-  display: block;
-  color: var(--muted);
 }
 
 .search-box {
@@ -1612,8 +1601,13 @@ backToTop.addEventListener("click", () => {
     )
 
     PAGES.mkdir(exist_ok=True)
+    if ASSETS.exists():
+        shutil.copytree(ASSETS, PUBLIC / "assets", dirs_exist_ok=True)
+
     for filename in ("index.html", "styles.css", "app.js"):
         shutil.copy2(PUBLIC / filename, PAGES / filename)
+    if ASSETS.exists():
+        shutil.copytree(ASSETS, PAGES / "assets", dirs_exist_ok=True)
 
     print(f"Wrote {PUBLIC / 'index.html'}")
     print(f"Wrote {PAGES / 'index.html'}")
