@@ -63,38 +63,27 @@ a {
 .brand {
   display: flex;
   align-items: center;
-  gap: 0.8rem;
+  justify-content: center;
   text-decoration: none;
-  padding-bottom: 1.1rem;
+  padding-bottom: 1.25rem;
   border-bottom: 1px solid var(--line);
 }
 
-.brand-mark {
-  display: grid;
-  place-items: center;
-  width: 3.2rem;
-  aspect-ratio: 1;
-  border: 1px solid rgba(50, 242, 135, 0.55);
-  background: linear-gradient(145deg, rgba(50, 242, 135, 0.16), rgba(100, 255, 224, 0.08));
-  color: var(--green);
-  font-family: "DNO Mono", Consolas, monospace;
-  font-weight: 800;
-  letter-spacing: 0;
-  text-shadow: 0 0 14px rgba(50, 242, 135, 0.8);
+.brand-logo {
+  display: block;
+  width: min(12rem, 82%);
+  height: auto;
+  border: 1px solid rgba(50, 242, 135, 0.25);
+  border-radius: 8px;
+  box-shadow: var(--glow);
 }
 
-.brand strong,
 .hero h1,
 .section-head h1,
 .section-head h2,
 .section-head h3 {
   font-family: "DNO Mono", "Segoe UI", sans-serif;
   letter-spacing: 0;
-}
-
-.brand small {
-  display: block;
-  color: var(--muted);
 }
 
 .search-box {
@@ -423,6 +412,27 @@ ol {
   font-family: var(--font-mono);
   font-size: 0.85rem;
   font-weight: 800;
+}
+
+.guide-content ul li.check-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  border: 1px solid rgba(100, 255, 224, 0.18);
+  border-left: 3px solid var(--cyan);
+  border-radius: 0 8px 8px 0;
+  background: rgba(100, 255, 224, 0.045);
+  padding: 0.65rem 0.8rem;
+}
+
+.fake-check {
+  width: 1.2rem;
+  height: 1.2rem;
+  flex: 0 0 1.2rem;
+  border-radius: 4px;
+  border: 1px solid rgba(139, 255, 206, 0.7);
+  background: rgba(11, 75, 50, 0.55);
+  box-shadow: inset 0 0 0 2px rgba(1, 18, 12, 0.9);
 }
 
 .requirement,
