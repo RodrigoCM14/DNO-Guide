@@ -61,6 +61,23 @@ clearSearch.addEventListener("click", () => {
   input.focus();
 });
 
+const checklistKey = "dno-guide-checklist";
+let checklistState = {};
+try {
+  checklistState = JSON.parse(localStorage.getItem(checklistKey) || "{}");
+} catch {
+  checklistState = {};
+}
+
+document.querySelectorAll(".check-item input[type='checkbox']").forEach((checkbox) => {
+  const id = checkbox.dataset.checkId;
+  checkbox.checked = Boolean(checklistState[id]);
+  checkbox.addEventListener("change", () => {
+    checklistState[id] = checkbox.checked;
+    localStorage.setItem(checklistKey, JSON.stringify(checklistState));
+  });
+});
+
 document.querySelectorAll(".anchor-link").forEach((link) => {
   link.addEventListener("click", async () => {
     const url = `${location.origin}${location.pathname}${link.getAttribute("href")}`;
