@@ -520,7 +520,7 @@ def nav_group(title: str, level: int) -> str | None:
     if title in {"General Information", "Progression Guide"}:
         return None
     groups = {
-        "Basics": {
+        "Start": {
             "Follow the full progression path",
             "Start here",
             "Unlock maps and travel routes",
@@ -531,7 +531,7 @@ def nav_group(title: str, level: int) -> str | None:
             "Build the BUW deck buff",
             "Level the BUW Digimon",
         },
-        "Farming & Power": {
+        "Farming": {
             "Farm core materials",
             "Farm Tera at Lost Historic Site",
             "Farm Tera at Server Continent",
@@ -545,7 +545,7 @@ def nav_group(title: str, level: int) -> str | None:
             "Collect Seal Master tickets",
             "Open seals for permanent stats",
         },
-        "Early to Mid Game": {
+        "Early Game": {
             "Begin early-to-mid progression",
             "Choose your route at 70 archives",
             "Unlock Alphamon Ouryuken X",
@@ -563,7 +563,7 @@ def nav_group(title: str, level: int) -> str | None:
             "Finish the 14-day crest route",
             "Unlock Omegamon Merciful Mode",
         },
-        "Mid to Late Game": {
+        "Mid Game": {
             "Move into late-game goals",
             "Start the VIP grind",
             "Farm Fanglongmon Hard rewards",
@@ -572,7 +572,7 @@ def nav_group(title: str, level: int) -> str | None:
             "Catch up on Normal dungeon gear",
             "Choose a Normal dungeon farm",
         },
-        "P.W. Lost Historic Site": {
+        "Endgame": {
             "Enter P.W. Lost Historic Site",
             "Follow the full boss route",
             "Run the VA party route",
@@ -594,6 +594,67 @@ def nav_group(title: str, level: int) -> str | None:
     return None
 
 
+def nav_label(title: str) -> str:
+    labels = {
+        "Follow the full progression path": "Full path",
+        "Start here": "Intro",
+        "Unlock maps and travel routes": "Map unlocks",
+        "Claim map completion rewards": "Map rewards",
+        "Find the best leveling spots": "Leveling basics",
+        "Pick a leveling location": "Leveling spots",
+        "Set up AoE leveling": "AoE setup",
+        "Build the BUW deck buff": "BUW deck",
+        "Level the BUW Digimon": "BUW Digimon",
+        "Farm core materials": "Core farms",
+        "Farm Tera at Lost Historic Site": "LHS Tera farm",
+        "Farm Tera at Server Continent": "Server Tera farm",
+        "Collect hatch data": "Hatch data",
+        "Farm specific data types": "Data spots",
+        "Choose the right card trades": "Card trades",
+        "Use Villain Box rewards": "Villain boxes",
+        "Recycle stones for more boxes": "Stone recycling",
+        "Get enhancement buff boxes": "Buff boxes",
+        "Use your enhancement buffs": "Buff list",
+        "Collect Seal Master tickets": "Seal tickets",
+        "Open seals for permanent stats": "Seal stats",
+        "Begin early-to-mid progression": "Progression start",
+        "Choose your route at 70 archives": "70 archive route",
+        "Unlock Alphamon Ouryuken X": "Alphamon X",
+        "Upgrade to Alphamon X Awaken": "Alphamon Awaken",
+        "Finish Alphamon X Extreme": "Alphamon Extreme",
+        "Spend extra Easy Points wisely": "Easy Points",
+        "Spend Nexus Coins wisely": "Nexus Coins",
+        "Know the Normal dungeon exceptions": "Rank exceptions",
+        "Unlock Fanglongmon Shin": "Fanglongmon Shin",
+        "Roll the recommended accessory stats": "Accessory rolls",
+        "Start the AFK route": "AFK route",
+        "Farm three Kunemon": "Kunemon farm",
+        "Farm Adventure Beach crests": "Adventure Beach",
+        "Follow the weekly crest schedule": "Crest schedule",
+        "Finish the 14-day crest route": "14-day finish",
+        "Unlock Omegamon Merciful Mode": "Merciful Mode",
+        "Move into late-game goals": "Late-game goals",
+        "Start the VIP grind": "VIP grind",
+        "Farm Fanglongmon Hard rewards": "Fang Hard rewards",
+        "Plan your VIP dungeon runs": "VIP runs",
+        "Unlock Fanglongmon Ruin Mode": "Fanglongmon Ruin",
+        "Catch up on Normal dungeon gear": "Normal gear",
+        "Choose a Normal dungeon farm": "Normal farms",
+        "Enter P.W. Lost Historic Site": "P.W. entry",
+        "Follow the full boss route": "Full boss route",
+        "Run the VA party route": "VA route",
+        "Run the VI party route": "VI route",
+        "Run the DA party route": "DA route",
+        "Run the Steel weakness route": "Steel route",
+        "Boost your SK damage": "SK damage",
+        "Raise HP for Armagedomon": "Armagedomon HP",
+        "Use The Healers for HP": "Healers deck",
+        "Use Ancient Spirit Evolution": "Spirit deck",
+        "Review the final checklist": "Final checklist",
+    }
+    return labels.get(title, title)
+
+
 def render_nav(nav: list[dict[str, str]]) -> str:
     last_for_title = {display_title(item["title"]): index for index, item in enumerate(nav)}
     grouped: dict[str, list[dict[str, str]]] = {}
@@ -607,11 +668,11 @@ def render_nav(nav: list[dict[str, str]]) -> str:
         grouped.setdefault(group, []).append({**item, "title": title})
 
     order = [
-        "Basics",
-        "Farming & Power",
-        "Early to Mid Game",
-        "Mid to Late Game",
-        "P.W. Lost Historic Site",
+        "Start",
+        "Farming",
+        "Early Game",
+        "Mid Game",
+        "Endgame",
         "Other",
     ]
     parts: list[str] = []
@@ -622,8 +683,9 @@ def render_nav(nav: list[dict[str, str]]) -> str:
         parts.append('<div class="toc-group">')
         parts.append(f'<p class="toc-group-title">{html.escape(group)}</p>')
         for item in items:
+            label = nav_label(item["title"])
             parts.append(
-                f'<a class="toc-level-{item["level"]}" href="#{item["id"]}">{html.escape(item["title"])}</a>'
+                f'<a class="toc-level-{item["level"]}" href="#{item["id"]}" title="{html.escape(item["title"])}">{html.escape(label)}</a>'
             )
         parts.append("</div>")
     return "".join(parts)
