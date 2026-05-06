@@ -772,7 +772,13 @@ def render_markdown(markdown: str) -> tuple[str, list[dict[str, str]], list[dict
                 list_state = close_list(out, list_state)
                 out.append(f"<{tag}>")
                 list_state = tag
-            out.append(f"<li>{inline_markup(content)}</li>")
+            checklist = re.match(r"^\[\s*\]\s+(.+)$", content)
+            if checklist:
+                out.append(
+                    f'<li class="check-item"><span class="fake-check" aria-hidden="true"></span>{inline_markup(checklist.group(1))}</li>'
+                )
+            else:
+                out.append(f"<li>{inline_markup(content)}</li>")
             current_text.append(content)
             continue
 
@@ -1292,6 +1298,27 @@ ol {
   font-family: var(--font-mono);
   font-size: 0.85rem;
   font-weight: 800;
+}
+
+.guide-content ul li.check-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  border: 1px solid rgba(100, 255, 224, 0.18);
+  border-left: 3px solid var(--cyan);
+  border-radius: 0 8px 8px 0;
+  background: rgba(100, 255, 224, 0.045);
+  padding: 0.65rem 0.8rem;
+}
+
+.fake-check {
+  width: 1.2rem;
+  height: 1.2rem;
+  flex: 0 0 1.2rem;
+  border-radius: 4px;
+  border: 1px solid rgba(139, 255, 206, 0.7);
+  background: rgba(11, 75, 50, 0.55);
+  box-shadow: inset 0 0 0 2px rgba(1, 18, 12, 0.9);
 }
 
 .requirement,

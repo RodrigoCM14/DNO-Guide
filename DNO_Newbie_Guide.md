@@ -121,8 +121,7 @@ Glacier Area Rewards - Reinforced Random DigiEgg Lv.4, Red Light of Life, Blue L
 Exchange Ticket, Spooky Halloween Costume, Random Riding Box
 Server Continent Area Rewards [Important] - Reinforced Digiclone Set, Jogress Chip, XAI VII, Palmon
 Original DigiEgg Lv.5, PawnChessmon (White) DigiEgg Lv.5, Rare Coin
-[Important - Out of all the Completion Rewards, Server Continent is the most important as it gives the only
-way to obtain a "Palmon [Origin]" Egg]
+[Important - Out of all the Completion Rewards, Server Continent is the most important because it gives the only way to obtain a Palmon Origin Egg.]
 
 
 <!-- PAGE 3 -->
@@ -271,32 +270,33 @@ any NPC shop available, It will net more than the 50B return 90% of times]
 
 ### Villain Boxes Provides important Items such as
 
-Fruit of Yggdrasill (Bulk Fruit) - Most Important
-Fruit of Yggdrasil Event [Max Can be used up to 138% Size]
-Option Change Stones (OCS) and Number Change Stones (NCS)
-Reinforce Digiclones Set Event (Boxes)
-Seal Openers
-Special Chicken Combo (SCC)
-Raremon DigiEgg-Lv3 Champion
+Main rewards:
 
-Utilize these items when needed to Upgrade Accessories, Upgrade Digimon Clones levels for stats, Upgrade
-Digimon Transcend levels and for needed consumable items.
+- Fruit of Yggdrasill (Bulk Fruit) - Most important reward. Fruit of Yggdrasil Event can be used up to 138% size.
+- Option Change Stones (OCS) and Number Change Stones (NCS) - Use these when upgrading accessory options and stat numbers.
+- Reinforced Digiclone Set Event Boxes - Use these to improve Digimon clone levels for stats.
+- Seal Openers - Use these for permanent seal stats.
+- Special Chicken Combo (SCC) - Keep these for harder content.
+- Raremon DigiEgg-Lv3 Champion - Use these for transcendence material.
 
-Fruit of Yggdrasill (Bulk Fruit) is the Most Important Item
-You will Obtain 414 Fruit of Yggdrasil (Bulk Fruit) to 646 Fruit of Yggdrasil (Bulk Fruit) per stack of Villain Boxes
-(Stack = 999 Villain Boxes)
-Fruit of Yggdrasill (Bulk Fruits) is used to get Digimon to Transcendence level 10
-From the "Craniumon X" NPC in Dats Center
-Go to the "Hyper Nexus EX" tab, From there select "True Bulk Fruit"
+Bulk Fruit route:
 
-You will require 40 "Fruit of Yggdrasil (Bulk Fruit)" To get 1 "True Bulk Fruit
-Total Required Materials to get 1 Digimon from T6 (138% Size) to T10 (169% Size)
-500 Tera (In-game Money)
-23 Raremon DigiEgg Lv3 Champions
-470 "True Bulk Fruit" [Average]
+1. Open Villain Boxes to obtain Fruit of Yggdrasill (Bulk Fruit). Each 999 Villain Box stack gives about 414 to 646 Bulk Fruit.
+2. Use Bulk Fruit to get Digimon from T6 (138% size) to T10 (169% size).
+3. Go to the "Craniumon X" NPC in Dats Center.
+4. Open the "Hyper Nexus EX" tab and select "True Bulk Fruit".
+5. Trade 40 Fruit of Yggdrasil (Bulk Fruit) for 1 True Bulk Fruit.
 
-You will also get extra "Summoning Stone 11 to 15" for every Villain Box Stack used
-You can trade this in also at the "Barbamon" NPC in Dats Center to obtain cards and get more Villain Boxes
+Materials needed for one Digimon from T6 to T10:
+
+- 500 Tera (In-game Money)
+- 23 Raremon DigiEgg Lv3 Champions
+- 470 True Bulk Fruit [Average]
+
+Extra recycle value:
+
+- Every Villain Box stack also gives extra "Summoning Stone 11 to 15".
+- Trade those stones at the "Barbamon" NPC in Dats Center to obtain more cards and more Villain Boxes.
 
 
 ### Average % Number of Boxes obtained from Recycling Obtained Summoning Stones
@@ -483,24 +483,25 @@ Once you have 2340 Easy Points
 
 ### 8. For Alphamon Ouryuken Extreme, You will need
 
-2 Alphamon's True Power [200 Nexus Coins Each]
-The 1st Alphamon's True Power item is used on Dorumon (RaptorDramon) [200 Nexus Coins}
-The 2nd Alphamon True Power Item is used on Ryudamon [200 Nexus Coins] [Order of Usage doesn't matter]
+Required items:
+
+- Alphamon's True Power x2 [200 Nexus Coins each]
+
+Usage:
+
+1. Use the 1st Alphamon's True Power on Dorumon (RaptorDramon) [200 Nexus Coins].
+2. Use the 2nd Alphamon's True Power on Ryudamon [200 Nexus Coins].
+3. Order of usage does not matter.
+
 9. Congratulations on getting Alphamon Ouryuken Extreme
 
-[Note - You can utilize the "Lost Historic Site" Guide in section 3.  to both get the 500 Tera required, "True Bulk
-Fruit" and "Reinforced Digiclones Boxes" to T10 Your Alphamon Ouryuken Extreme and get it to 75/75
-Digiclones, Using Your Newly Obtained Alphamon Ouryuken Extreme as your AoE Farmer]
+[Note - You can use the "Lost Historic Site" guide to get the 500 Tera, True Bulk Fruit, and Reinforced Digiclone Boxes needed to T10 your Alphamon Ouryuken Extreme and get it to 75/75 Digiclones. Use your newly obtained Alphamon Ouryuken Extreme as your AoE farmer.]
 
-Alongside doing Royal Base Easy Dungeons
-You will also obtain "Finest Mysterious X-Antibody Factor Omegamon X"
-These are the scannable items used to obtain Agumon X, Gabumon X and Omegamon X
-Even though it's not guaranteed you should strive to get and scan as many of them as possible
+While running Royal Base Easy Dungeons, you will also obtain "Finest Mysterious X-Antibody Factor Omegamon X". These scannable items are used to obtain Agumon X, Gabumon X, and Omegamon X. It is not guaranteed, so scan as many as possible.
 
-If you only do Royal Base Easy Dungeons to get the 2340 Easy Points, You will get 585 Finest Boxes
-You may not get all items required for Omegamon X within the 585 Boxes Obtained
+If you only run Royal Base Easy Dungeons to get the 2340 Easy Points, you will get 585 Finest Boxes. You may not get every item required for Omegamon X from those 585 boxes.
 
-If this happens carry on doing Royal Base Easy Dungeons to both get Finest Boxes and Easy Points
+If this happens, keep running Royal Base Easy Dungeons to earn both Finest Boxes and Easy Points.
 
 ### Utilize the Easy Points on other important items at the Alphamon NPC such as
 
@@ -522,7 +523,6 @@ Continue Scanning Finest Mysterious X-Antibody Factor Omegamon X until you get O
 [If you still do not get Omegamon X after getting all of the above in excess, I'm so sorry XD]
 
 <!-- PAGE 11 -->
-Part 2
 Main Goal - Obtaining Max Fanglongmon Ancient Accessories Through Getting 2100 Normal Points
 Side Goal - Obtaining Fanglongmon (Shin) Through Farming Fanglongmon (Normal) Dungeon
 Max Fanglongmon Ancient Accessories sold in the "Jesmon" NPC shop [Normal Points Shop] Is currently the
@@ -590,23 +590,29 @@ Max Fanglongmon Ancient Necklace - Attack Speed %, Basic Attribute %, Basic Attr
 Max Fanglongmon Ancient Ring - Skill [+], Skill [+], Basic Attribute %, Basic Attribute %
 Max Fanglongmon Ancient Earring - Critical Damage %, Critical Damage %, Skill [+], Basic Attribute %
 
-Accessory Upgrade Items
-High Rank Digitary Power Stone - Increase Digitary Power for Accessory by 10%
-Amazing Digitary Power Stone - Increase Digitary Power for Accessory by 3% (2% Decrease if fail)
-Digitary Power Stone - Chance to Increase Digitary Power for Accessory by 1% (1% Decrease if fail)
-[Power Stone = Increases Digitary Power (Number Next to "Digitary Power") of Accessories]
-Max Number = 200%, Cannot go over 200% and must utilize lower level power stones with lower % Increases
-such as "Digitary Power Stone" to get the last couple of %
-[E.g. if stuck at 199%, Can only use Digitary Power Stone to get to 200%]
+Accessory Upgrade Items:
 
-Amazing Renewal Increase Stones (ARIS) - Increase Renewal Number by 5
-High Rank Renewal Increase Stone (HRIS) - Chance to Increase Renewal Number by 1 (33% Chance)
-[Renewal Increase = Number of times OCS/NCS can be used on Accessories]
+- High Rank Digitary Power Stone - Increases Digitary Power for an accessory by 10%.
+- Amazing Digitary Power Stone - Increases Digitary Power for an accessory by 3%, with a 2% decrease if it fails.
+- Digitary Power Stone - Chance to increase Digitary Power for an accessory by 1%, with a 1% decrease if it fails.
 
-Option Change Stones (OCS) - Changes all the options on the Accessory
-Number Change Stones (NCS) - Changes Accessories Stat Number Once applied
-[NCS doesn't Need to be Utilized on Max Fanglongmon Ancient Accessories as they already have Max Stats]
-[OCS is to reroll stats on a accessory, Aim for the stats in "Stat Recommendation" To get Maximum Potential]
+[Power Stone = Increases Digitary Power, which is the number next to "Digitary Power" on accessories.]
+[Max Number = 200%. You cannot go above 200%, and you must use lower-level power stones such as "Digitary Power Stone" to get the last couple of percent. Example: if stuck at 199%, only use Digitary Power Stone to reach 200%.]
+
+Renewal Increase Items:
+
+- Amazing Renewal Increase Stones (ARIS) - Increase Renewal Number by 5.
+- High Rank Renewal Increase Stone (HRIS) - Chance to increase Renewal Number by 1 [33% chance].
+
+[Renewal Increase = Number of times OCS/NCS can be used on accessories.]
+
+Accessory Reroll Items:
+
+- Option Change Stones (OCS) - Changes all options on the accessory.
+- Number Change Stones (NCS) - Changes the accessory stat number once applied.
+
+[NCS does not need to be used on Max Fanglongmon Ancient Accessories because they already have max stats.]
+[OCS is used to reroll accessory stats. Aim for the stats in "Stat Recommendations" to get maximum potential.]
 
 Once you have gotten all accessories, Congratulations on completing the best Accessory set in the game!
 You do not need to get all evolution items required for Fanglongmon Shin to complete this step, Once you get
@@ -813,9 +819,7 @@ Once you have reached 10,000 points, You can upgrade you VIP level by typing "!u
 3. Select "Fanglongmon's Black Heart" Each Item requires 1000 "Gold Dragon Coins" obtained from opened
 "Yin and Yang Boxes (Fanglongmon)". You will need 4 of these items
 
-4. The 1st Fanglongmon's Black Heart will need to be used on Baihumon, The 2nd Fanglongmon's Black Heart
-will need to be used on Zhuqiaomon, The 3rd Fanglongmon's Black Heart will need to be used on Xuanwumon,
-The 4th Fanglongmon's Black Heart will need to be used on Qinglongmon. [Order of Usage doesn't matter]
+4. Use the Fanglongmon's Black Heart items on Baihumon, Zhuqiaomon, Xuanwumon, and Qinglongmon. The order of usage does not matter.
 
 <!-- PAGE 17 -->
 5). Congratulations on getting Fanglongmon Ruin Mode!
@@ -849,24 +853,25 @@ Main Goal - Farming 2100 Normal Dungeon Points by Farming Any Normal Dungeons In
 
 ### The best Normal Dungeons to farm are
 
-Royal Base (Normal) [Room 1 only] - Accessed by talking to the "Ulforce-Veedramon X" NPC in D-Terminal
-(24 Points each per Boss)
-Fanglongmon Dungeon (Normal) - Accessed by talking to the "Gulimon" NPC in D-Terminal
-(35 Normal Points Per Run)
-Best Digimon for Royal Base (Normal) -
-Gankomon X (SSS) [T10]
-Craniamon X (SSS) [T10]
-[Note - To farm Royal Base Normal effectively and faster than Fanglongmon Dungeon, You will have to T10
-these Digimon which may take some time]
+Normal dungeon options:
 
-Best Easily Obtainable Digimon for Fanglongmon Dungeon (Normal) -
-Fanglongmon (SSS) [T10]
-Black-MetalGarurumon [A+] / Black-WarGreymon [A+] (T10)
-[Note - You should already have both of the above Digimon to T10 as they are on the same line as the
-respective U+ Rank Digimon you have been using up onto this point]
-[Important - Unless utilizing Advanced Skill Breaking (ASB) actively, Utilizing Skills in Normal Dungeon with
-SSS+ Rank and below Digimon only leads to a very marginal damage Increase, therefore utilizing only Auto
-Attacking (AA) is normally more beneficial for completing Easy/Normal Dungeons]
+- Royal Base (Normal) [Room 1 only] - Accessed by talking to the "Ulforce-Veedramon X" NPC in D-Terminal. Gives 24 points per boss.
+- Fanglongmon Dungeon (Normal) - Accessed by talking to the "Gulimon" NPC in D-Terminal. Gives 35 Normal Points per run.
+
+Best Digimon for Royal Base (Normal):
+
+- Gankomon X (SSS) [T10]
+- Craniamon X (SSS) [T10]
+
+[Note - To farm Royal Base Normal effectively and faster than Fanglongmon Dungeon, you will have to T10 these Digimon, which may take some time.]
+
+Best Easily Obtainable Digimon for Fanglongmon Dungeon (Normal):
+
+- Fanglongmon (SSS) [T10]
+- Black-MetalGarurumon [A+] / Black-WarGreymon [A+] (T10)
+
+[Note - You should already have both of the above Digimon at T10 because they are on the same line as the respective U+ Rank Digimon you have been using up to this point.]
+[Important - Unless actively using Advanced Skill Breaking (ASB), using skills in Normal Dungeon with SSS+ Rank and below Digimon only gives a marginal damage increase. Auto Attacking (AA) is normally more beneficial for completing Easy/Normal Dungeons.]
 
 [Note - Ensure you have the deck buff "Burst Ultimate Wings" at this point and make sure to utilize it whilst
 farming these dungeon]
@@ -974,10 +979,8 @@ Without defeating P.W. Armagemon - 7 Boxes Per Run [1 Minute and 10 Seconds per 
 With defeating P.W. Armagemon - 10 Boxes Per Run [1 Minute and 10 Seconds per Boss, 1 Minute for Arma]
 
 [Total time to get 2500 Lost Historic Site Boxes defeating VA Weak bosses = 48 Hours and 37 Minutes]
-[Total time to get 2500 Lost Historic Site Boxes defeating VA Weak bosses + Arma = 38 Hours and 11
-Minutes]
-(Can be Significantly Reduced by this route with a party, preferably someone with P .W. Armagedomon initiate
-boss first, as well as increasing your stats through increasing SK%, Read below for ways to Increase SK%)
+[Total time to get 2500 Lost Historic Site Boxes defeating VA Weak bosses + Arma = 38 Hours and 11 Minutes]
+(Can be significantly reduced with a party, preferably with someone using P.W. Armagedomon to initiate the boss first, and by increasing your stats through SK%. Read below for ways to increase SK%.)
 
 
 <!-- PAGE 21 -->
@@ -997,10 +1000,8 @@ Without defeating P.W. Armagemon - 4 Boxes Per Run [1 Minute per Boss]
 With defeating P.W. Armagemon - 7 Boxes Per Run [1 Minute per Boss, 1 Minute for Arma]
 
 [Total time to get 2500 Lost Historic Site Boxes defeating VI Weak bosses = 41 Hours and 40 Minutes]
-[Total time to get 2500 Lost Historic Site Boxes defeating VI Weak Bosses + Arma = 29 Hours and 45
-Minutes]
-(Can be Significantly Reduced by this route with a party, preferably someone with P .W. Armagedomon initiate
-boss first, as well as increasing your stats through increasing SK%, Read below for ways to Increase SK%)
+[Total time to get 2500 Lost Historic Site Boxes defeating VI Weak Bosses + Arma = 29 Hours and 45 Minutes]
+(Can be significantly reduced with a party, preferably with someone using P.W. Armagedomon to initiate the boss first, and by increasing your stats through SK%. Read below for ways to increase SK%.)
 
 
 ### DA Majority Party Route
@@ -1020,14 +1021,10 @@ Without defeating P.W. Armagemon - 8 Boxes Per Run [1 Minute and 5 Seconds per B
 With defeating P.W. Armagemon - 11 Boxes Per Run [1 Minute and 5 Seconds per Boss, 1 Minute for Arma]
 
 [Total time to get 2500 Lost Historic Site Boxes defeating DA Weak bosses = 45 Hours and 8 Minutes]
-[Total time to get 2500 Lost Historic Site Boxes defeating DA Weak Bosses + Arma = 36 Hours and 36
-Minutes]
-(Can be Significantly Reduced by this route with a party, preferably someone with P .W. Armagedomon initiate
-boss first, as well as increasing your stats through increasing SK%, Read below for ways to Increase SK%)
+[Total time to get 2500 Lost Historic Site Boxes defeating DA Weak Bosses + Arma = 36 Hours and 36 Minutes]
+(Can be significantly reduced with a party, preferably with someone using P.W. Armagedomon to initiate the boss first, and by increasing your stats through SK%. Read below for ways to increase SK%.)
 
-[Important - Unless you have either a P.W. Armagedomon on the team to initiate the first hit, have a Thunder
-element majority U+ Rank Party, or at least 1 tamer with Susanoomon Extreme in the party, It is highly ill-
-advised to take on P.W. Armagedomon unless you can defeat it within 1 minute]
+[Important - Unless you have a P.W. Armagedomon on the team to initiate the first hit, a Thunder element majority U+ Rank party, or at least 1 tamer with Susanoomon Extreme in the party, it is highly ill-advised to take on P.W. Armagedomon unless you can defeat it within 1 minute.]
 
 
 <!-- PAGE 22 -->
@@ -1067,43 +1064,38 @@ With defeating P.W. Armagemon - 13 Boxes Per Run [30 Seconds per Boss, 1 Minute 
 
 ### Ways to Increase your SK% Damage Further
 
-Utilizing the "Omega" Deck Buff
-Obtained from Getting "Omegamon", Omegamon Alter-S," "Omegamon Zwart"
-Omegamon - Jogress Evolution for Agumon (Classic) and Gabumon
-Omegamon Alter-S - Jogress Evolution for Agumon (BlitzGreymon) and Gabumon (CresGarurumon)
-Omegamon Zwart - Jogress Evolution for Agumon (Black) and Gabumon (Black)
+Deck buffs:
 
-Utilizing the "Season 2 Jogress" Deck Buff
-Obtained from Getting "Imperialdramon Fighter Mode" , "SlashAngemon" , "Valkyrimon"
-Imperialdramon Fighter Mode - Jogress Evolution between V-Mon and Wormmon (Imperialdramon Digieggs)
-SlashAngemon - Obtain 140 "Super Black Cogwheel" from defeating Sin Dungeon [Easy/Normal/Hard]
-Valkyrimon - Jogress Evolution Between Hawkmon and Salamon (Silphymon) [Given for Free]
+- Omega Deck Buff - Obtained from getting Omegamon, Omegamon Alter-S, and Omegamon Zwart.
+- Omegamon - Jogress Evolution for Agumon (Classic) and Gabumon.
+- Omegamon Alter-S - Jogress Evolution for Agumon (BlitzGreymon) and Gabumon (CresGarurumon).
+- Omegamon Zwart - Jogress Evolution for Agumon (Black) and Gabumon (Black).
+- Season 2 Jogress Deck Buff - Obtained from getting Imperialdramon Fighter Mode, SlashAngemon, and Valkyrimon.
+- Imperialdramon Fighter Mode - Jogress Evolution between V-Mon and Wormmon (Imperialdramon DigiEggs).
+- SlashAngemon - Obtain 140 Super Black Cogwheel from Sin Dungeon [Easy/Normal/Hard].
+- Valkyrimon - Jogress Evolution between Hawkmon and Salamon (Silphymon) [Given for Free].
 
-Getting the GM Suit - Obtained from Trading in 5,000 Hard Points at the "Jesmon" NPC in Dats Center
-Getting the Nexus Goggles - Obtained from Purchasing it for 80T from the "Vending Machine" NPC in Dats
-Center [Note - This is a 8 Day Expiration Item]
-Getting the Agumon Clothing set for the "Agumon Top" Specifically - Obtained from Trading in 2500 Hard
-Points for the "Agumon Set" at the "Jesmon" NPC in Dats Center [Note - This is a 30 Day Expiration Item]
+Gear and accessories:
 
-Getting the Miracle Bracelet Special - Obtained from Trading in 400 Super Black Cogwheels and 200T at the
-"Barbamon" NPC in Dats Center [Best Stat Allocation - SK%, SK%, SK%, Critical Damage%, Basic Attribute%]
-Getting Upgraded Digivice - Trading in 3,000 Crests of any type dropped in the Adventure Beach map to the
-"Gennai" NPC in Dats Center
-Equipping Attribute Aligned AT Chipsets [E.g. ME And VB Chipsets for Both Fanglongmon Ruin Mode and
-Omegamon X Awaken to receive double the amount of AT from the Chipsets]
-Highest Ranked Chipsets are Rank 13 - Obtained opening Yin and Yang Boxes from Fanglongmon Dungeon
-Obtaining the "King Of Black Steel Test" Achievement - Can be Obtained by completing the Relevant Hard
-Mode Achievement Quest for the Baihumon Hard Dungeon at the "Lopmon" NPC in D-Terminal
+- GM Suit - Trade 5,000 Hard Points at the "Jesmon" NPC in Dats Center.
+- Nexus Goggles - Buy for 80T from the "Vending Machine" NPC in Dats Center. [Note - This is an 8 day expiration item.]
+- Agumon Top - Trade 2500 Hard Points for the "Agumon Set" at the "Jesmon" NPC in Dats Center. [Note - This is a 30 day expiration item.]
+- Miracle Bracelet Special - Trade 400 Super Black Cogwheels and 200T at the "Barbamon" NPC in Dats Center. [Best Stat Allocation - SK%, SK%, SK%, Critical Damage%, Basic Attribute%.]
+- Upgraded Digivice - Trade 3,000 Crests of any type from Adventure Beach to the "Gennai" NPC in Dats Center.
 
-Utilizing Double Matt buffs [Vigor and Enhanced Vigor]
-Matt - Can be Obtained for Trading in 80 Nexus Coins for the "Exchange Tamer Box Adventure" at the
-Cranimon X NPC in Dats Center [Note - This is a RNG Gated Item which can take multiple attempts to obtain]
-Enhanced Vigor - Obtained through trading in 10 Nexus Coins for the "Random Tamer Skill Box 1D" at the
-Cranimon X NPC in Dats Center [Note - This is a RNG Gated Item which can take multiple attempts to obtain]
-Utilizing Party Wide SK% Tamer Buffs - [Takato - Focus] {Only Available in Party settings}
-Takato is the only Tamer in the game with a Party Wide 20% SK% Damage buff Skill
-Unfortunately, There is no current way to get Season 3 Tamer Protagonists except from starting the game out
-with Takato as your main tamer from the beginning of the game.
+Chipsets and achievements:
+
+- Attribute-aligned AT Chipsets - Use matching chipsets, such as ME and VB for Fanglongmon Ruin Mode and Omegamon X Awaken, to receive double AT from chipsets.
+- Rank 13 Chipsets - Highest ranked chipsets, obtained from opening Yin and Yang Boxes from Fanglongmon Dungeon.
+- King Of Black Steel Test Achievement - Complete the relevant Hard Mode achievement quest for Baihumon Hard Dungeon at the "Lopmon" NPC in D-Terminal.
+
+Tamer buffs:
+
+- Double Matt buffs [Vigor and Enhanced Vigor] - Matt can be obtained by trading 80 Nexus Coins for the "Exchange Tamer Box Adventure" at the Craniamon X NPC in Dats Center.
+- Enhanced Vigor - Trade 10 Nexus Coins for the "Random Tamer Skill Box 1D" at the Craniamon X NPC in Dats Center.
+- [Note - Matt and Enhanced Vigor are RNG-gated and can take multiple attempts to obtain.]
+- Takato Focus - Party-wide SK% tamer buff available only in party settings. Takato is the only tamer with a party-wide 20% SK% damage buff.
+- [Note - There is no current way to get Season 3 tamer protagonists except starting the game with Takato as your main tamer.]
 
 
 <!-- PAGE 24 -->
@@ -1143,26 +1135,26 @@ over the 1,100,000 HP Threshold to defeat P .W. Armagedomon]
 
 ### Utilizing the Deck Buff "Ancient Spirit Evolution"
 
-Obtained from getting KasierGreymon, MagnaGarurumon, Sussanomon (Regular)
-KasierGreymon - Level to 99 and sacrifice all relevant spirit Digimon to the "Bokomon" NPC in Dats Center
-MagnaGarurumon - Level to 99 and sacrifice all relevant spirit Digimon to the "Bokomon" NPC in Dats Center
-Sussanomon - Jogress Evolution between KasierGreymon and MagnaGarurumon
+Deck pieces:
 
-Getting the GM Suit - Obtained from Trading in 5,000 Hard Points at the "Jesmon" NPC in Dats Center
-Getting the Nexus Goggles - Obtained from Purchasing it for 80T from the "Vending Machine" NPC in Dats
-Center [Note - This is a 8 Day Expiration Item]
-Getting Zhuqiamons Infernal Hooded Shirt - Obtained from Trading in 400 Hard Points at the Jesmon NPC
-in Dats Center [Note - This is a 30 Day Expiration Item]
+- Ancient Spirit Evolution Deck Buff - Obtained from getting KaiserGreymon, MagnaGarurumon, and Susanoomon (Regular).
+- KaiserGreymon - Level to 99 and sacrifice all relevant spirit Digimon to the "Bokomon" NPC in Dats Center.
+- MagnaGarurumon - Level to 99 and sacrifice all relevant spirit Digimon to the "Bokomon" NPC in Dats Center.
+- Susanoomon - Jogress Evolution between KaiserGreymon and MagnaGarurumon.
 
-Equipping Attribute Aligned HP Chipsets [E.g. ME And VB Chipsets for Both Fanglongmon Ruin Mode and
-Omegamon X Awaken to receive double the amount of HP from the Chipsets]
-Highest Ranked Chipsets are Rank 13 - Obtained opening Yin and Yang Boxes from Fanglongmon Dungeon
+HP gear:
 
-Obtaining the File Island Blessing Buff
-Obtained from defeating the Devimon Raid which spawns after defeating all 5 previous raids in the Infinite
-Mountain Dungeon Map.
-(Raid Order : Kuwagemon -> Meramon -> Monochromon -> Leomon -> Ogremon -> Devimon)
-[Note : Raid Resets every 45 Minutes once Devimon is defeated]
+- GM Suit - Trade 5,000 Hard Points at the "Jesmon" NPC in Dats Center.
+- Nexus Goggles - Buy for 80T from the "Vending Machine" NPC in Dats Center. [Note - This is an 8 day expiration item.]
+- Zhuqiaomon's Infernal Hooded Shirt - Trade 400 Hard Points at the Jesmon NPC in Dats Center. [Note - This is a 30 day expiration item.]
+- Attribute-aligned HP Chipsets - Use matching chipsets, such as ME and VB for Fanglongmon Ruin Mode and Omegamon X Awaken, to receive double HP from chipsets.
+- Rank 13 Chipsets - Highest ranked chipsets, obtained from opening Yin and Yang Boxes from Fanglongmon Dungeon.
+
+File Island Blessing Buff:
+
+- Obtained by defeating Devimon Raid after defeating all 5 previous raids in the Infinite Mountain Dungeon map.
+- Raid order: Kuwagemon -> Meramon -> Monochromon -> Leomon -> Ogremon -> Devimon.
+- [Note - Raid resets every 45 minutes once Devimon is defeated.]
 
 
 <!-- PAGE 25 -->
@@ -1172,9 +1164,7 @@ Cranimon X NPC in Dats Center [Note - This is a RNG Gated Item which can take mu
 Enhanced Encouragement - Obtained through trading in 10 Nexus Coins for the "Random Tamer Box 1D" at
 the Cranimon X NPC in Dats Center [Note - This is a RNG Gated Item which can take multiple attempts to
 obtain]
-[Important - Due to a bug, even though both Encouragement and Enhanced Encouragement Buffs do stack
-once exiting the dungeon, you will lose all the HP you gain for the buff so it is suggested to only use 1 buff and
-activate the second once the other is about to go off cooldown to invalidate the cooldown time for this skill]
+[Important - Due to a bug, even though both Encouragement and Enhanced Encouragement buffs do stack, you will lose all HP gained from the buff once you exit the dungeon. Use only 1 buff, then activate the second when the other is about to go off cooldown.]
 
 All the above as well as slowly continuing to fill out your Archive, Unlock Digimon Evolutions and 75/75 Clone
 your Digimon should be enough to get your Fanglongmon Ruin Mode/Omegamon X Awaken (Black) Above the
@@ -1184,17 +1174,10 @@ Once you have 1,100,000 HP, You can attack at survive P.W. Armagedomon
 Against P.W. Armagedomon, Try to defeat it as quickly as possible utilizing the Skills from your Digimon
 [Note - You can also AA Armagedomon to death at this point but it will take significantly longer]
 
-[Total time to get 2500 Lost Historic Site Boxes whilst defeating only Armagedomon with each run
-taking 3 Minutes = 41 Hours and 40 Minutes]
-(Can be Significantly Reduced by this route with a party, preferably someone with P .W. Armagedomon to hit the
-boss first and avoid needing 1,100,000 HP to focus on Damage instead)
-Important - Within the Invade feature, You are also able to send Digimon to Invade the P.W. Lost Historic Site
-Dungeon (Will only appear as "Lost Historic Site" within the Dungeon selection window).
-Each Invade utilizing the 3 U+ Rank Kunemons method will get 45 Boxes Per Day.
+[Total time to get 2500 Lost Historic Site Boxes while defeating only Armagedomon with each run taking 3 minutes = 41 Hours and 40 Minutes]
+(Can be significantly reduced with a party, preferably with someone using P.W. Armagedomon to hit the boss first, so you can focus on damage instead of needing 1,100,000 HP.)
 
-In total, It will require 56 Days to get 2500 Lost Historic Site Boxes from Purely Invading.
-It is Advised to both have invade going to collect Lost Historic Site Boxes passively and save them up, whilst
-running attempts in the P.W. Lost Historic Site Dungeon to Reduce the total time it will take to get 2500 Boxes.
+[Important - Within the Invade feature, you can also send Digimon to invade the P.W. Lost Historic Site Dungeon. It will only appear as "Lost Historic Site" within the dungeon selection window. Each invade using the 3 U+ Rank Kunemon method gets 45 boxes per day. Pure invading requires 56 days to get 2500 Lost Historic Site Boxes, so it is best to run invade passively while also doing dungeon attempts to reduce the total time.]
 
 Once you obtain 2500 Lost Historic Site Boxes [2 Stacks of 999 Boxes + 1 Stack of 502 Boxes]
 1. Within Dats Center, Go to the "Barbamon" NPC
@@ -1210,13 +1193,13 @@ You are now considered to be a Late Game Player, Congratulations for Completing 
 
 ## Quick Guide Summary
 
-Step 1 : Getting 70 Digimon in Archive
-Step 2 : Getting Alphamon Ouryuken Extreme [T10]
-Step 3 : Getting Omegamon X [T10]
-Step 4 : Getting all Max Fanglongmon Ancient Accessories
-Step 5 : Getting Omegamon X Awaken (Black) [T10]
-Step 6 : Getting Fanglongmon Ruin Mode [T10]
-Step 7 : Getting VIP 5
-Step 8 : Getting P.W. Armagedomon
+- [ ] Getting 70 Digimon in Archive
+- [ ] Getting Alphamon Ouryuken Extreme [T10]
+- [ ] Getting Omegamon X [T10]
+- [ ] Getting all Max Fanglongmon Ancient Accessories
+- [ ] Getting Omegamon X Awaken (Black) [T10]
+- [ ] Getting Fanglongmon Ruin Mode [T10]
+- [ ] Getting VIP 5
+- [ ] Getting P.W. Armagedomon
 
 Total Expected Time From Start to Completion : 136 Hours and 9 Minutes (5 Days 16 Hours 9 Minutes)
